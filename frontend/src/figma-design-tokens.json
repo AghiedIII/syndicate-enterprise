@@ -1,0 +1,76 @@
+{
+  "theme": "Obsidian Dark - Engineering Syndicate Ledger",
+  "version": "1.0.0",
+  "author": "Gemini Notebook",
+  "colors": {
+    "background": {
+      "canvas": { "value": "#0B0F19", "type": "color", "description": "Deep canvas background to eliminate eye strain." },
+      "card": { "value": "#151D30", "type": "color", "description": "Elevated bento card background." },
+      "panel": { "value": "#101626", "type": "color", "description": "Multi-tenant side workspace panel." },
+      "glass": { "value": "rgba(21, 29, 48, 0.60)", "type": "color", "description": "Frosted glass container backdrop." }
+    },
+    "text": {
+      "primary": { "value": "#F3F4F6", "type": "color" },
+      "secondary": { "value": "#9CA3AF", "type": "color" },
+      "muted": { "value": "#6B7280", "type": "color" },
+      "perfect_balance": { "value": "#00F5D4", "type": "color", "description": "Glowing cyan for matched ledgers." }
+    },
+    "brand_aurora_accents": {
+      "HAS": {
+        "hex": { "value": "#00E676", "type": "color", "description": "Hasakah Emerald Aurora" },
+        "glow": { "value": "rgba(0, 230, 118, 0.25)", "type": "color" },
+        "gradient": { "value": "linear-gradient(135deg, #00E676 0%, #00B0FF 100%)", "type": "gradient" }
+      },
+      "QAM": {
+        "hex": { "value": "#00E5FF", "type": "color", "description": "Qamishli Electric Cyan" },
+        "glow": { "value": "rgba(0, 229, 255, 0.25)", "type": "color" },
+        "gradient": { "value": "linear-gradient(135deg, #00E5FF 0%, #7C4DFF 100%)", "type": "gradient" }
+      },
+      "DER": {
+        "hex": { "value": "#D500F9", "type": "color", "description": "Derik Neon Violet" },
+        "glow": { "value": "rgba(213, 0, 249, 0.25)", "type": "color" },
+        "gradient": { "value": "linear-gradient(135deg, #D500F9 0%, #FF1744 100%)", "type": "gradient" }
+      }
+    },
+    "status": {
+      "active": { "value": "#00F5D4", "type": "color" },
+      "held": { "value": "#FFB300", "type": "color" },
+      "error_leak": { "value": "#FF1744", "type": "color" }
+    }
+  },
+  "typography": {
+    "families": {
+      "numbers": { "value": "Roboto", "type": "fontFamily" },
+      "arabic_ledger": { "value": "Cairo", "type": "fontFamily" },
+      "system_headers": { "value": "Inter", "type": "fontFamily" }
+    },
+    "sizes": {
+      "giant_stat": { "value": "36px", "type": "fontSize" },
+      "h1_title": { "value": "24px", "type": "fontSize" },
+      "h2_heading": { "value": "18px", "type": "fontSize" },
+      "body_text": { "value": "14px", "type": "fontSize" },
+      "caption_num": { "value": "11px", "type": "fontSize" }
+    }
+  },
+  "borders": {
+    "radius": {
+      "bento_card": { "value": "16px", "type": "borderRadius" },
+      "button": { "value": "8px", "type": "borderRadius" },
+      "tag_badge": { "value": "24px", "type": "borderRadius" }
+    },
+    "width": {
+      "thin": { "value": "1px", "type": "borderWidth" },
+      "aurora_active": { "value": "2px", "type": "borderWidth" }
+    }
+  },
+  "effects": {
+    "glow_shadow": {
+      "value": "0px 0px 12px 0px var(--brand-glow)",
+      "type": "boxShadow"
+    },
+    "backdrop_blur": {
+      "value": "12px",
+      "type": "blur"
+    }
+  }
+}
